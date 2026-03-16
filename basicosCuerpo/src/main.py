@@ -8,6 +8,16 @@ def main(page: ft.Page):
         bgcolor=ft.Colors.PURPLE_900,
         color=ft.Colors.WHITE
     )
+    page.bottom_appbar=ft.NavigationBar(
+        destinations=[
+            ft.NavigationBarDestination(icon=ft.icons.HOME,label="Inicio"),
+            ft.NavigationBarDestination(icon=ft.icons.SEARCH,label="Buscar"),
+            ft.NavigationBarDestination(icon=ft.icons.FAVORITE,label="Favoritos"),
+            ft.NavigationBarDestination(icon=ft.icons.SETTINGS,label="Configuración"),
+        ],
+        bgcolor=ft.Colors.PURPLE_900,
+        
+    )
     
     page.add(
         ft.Image(src="https://static.vecteezy.com/system/resources/thumbnails/012/047/870/small/trendy-minimalistic-food-delivery-service-or-online-food-order-application-banner-design-template-with-smartphone-screen-and-delivery-scooter-or-it-illustration-free-vector.jpg",
