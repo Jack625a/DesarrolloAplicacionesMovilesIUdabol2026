@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./basicosCuerpo/src/pantallas"
+    ],
+    "python-envs.defaultEnvManager": "ms-python.python:system"
+}
