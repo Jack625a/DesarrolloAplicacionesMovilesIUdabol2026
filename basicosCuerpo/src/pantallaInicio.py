@@ -1,6 +1,6 @@
 import flet as ft
 
-def vistaPantallaInicio():
+def vistaPantallaInicio(page,navbar):
     return ft.View(
         controls=[
             ft.Image(src="https://static.vecteezy.com/system/resources/thumbnails/012/047/870/small/trendy-minimalistic-food-delivery-service-or-online-food-order-application-banner-design-template-with-smartphone-screen-and-delivery-scooter-or-it-illustration-free-vector.jpg",
@@ -62,7 +62,8 @@ def vistaPantallaInicio():
                                              ),            
                             ),
                             
-            ]
+            ],
+            
         ),
         ]
     )
