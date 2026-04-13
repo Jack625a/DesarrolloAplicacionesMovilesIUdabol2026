@@ -24,17 +24,17 @@ def main(page: ft.Page):
 
     page.appbar=ft.AppBar(
         title=ft.Text("Componentes Cuerpo"),
-        leading=ft.Icon(name='MENU'),
+        leading=ft.Icon(icon=ft.Icons.MENU),
         bgcolor=ft.Colors.PURPLE_900,
         color=ft.Colors.WHITE
     )
 
     barraNavegacion=ft.NavigationBar(
         destinations=[
-            ft.NavigationBarDestination(icon=ft.icons.HOME,label="Inicio"),
-            ft.NavigationBarDestination(icon=ft.icons.SEARCH,label="Buscar"),
-            ft.NavigationBarDestination(icon=ft.icons.FAVORITE,label="Favoritos"),
-            ft.NavigationBarDestination(icon=ft.icons.SETTINGS,label="Configuración"),
+            ft.NavigationBarDestination(icon=ft.Icons.HOME,label="Inicio"),
+            ft.NavigationBarDestination(icon=ft.Icons.SEARCH,label="Buscar"),
+            ft.NavigationBarDestination(icon=ft.Icons.FAVORITE,label="Favoritos"),
+            ft.NavigationBarDestination(icon=ft.Icons.SETTINGS,label="Configuración"),
         ],
         bgcolor=ft.Colors.PURPLE_900,
         selected_index=0,
